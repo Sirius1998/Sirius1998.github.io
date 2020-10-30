@@ -9,7 +9,7 @@ body{
 }
 
 #main{
-    background-image: linear-gradient(to right,lightblue 0%,coral 100%),url('flowers.jpg');
+    background-image: linear-gradient(to right,lightblue 0%,coral 100%),url('https://c4.wallpaperflare.com/wallpaper/583/713/82/flowers-white-pink-peonies-wallpaper-preview.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
