@@ -9,7 +9,7 @@ body{
 }
 
 #main{
-    background-image: linear-gradient(to right,lightblue 0%,coral 100%),url('../../Pictures/pics/flowers.jpg');
+    background-image: linear-gradient(to right,lightblue 0%,coral 100%),url('flowers.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
