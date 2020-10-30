@@ -4,17 +4,22 @@
     box-sizing: border-box;
 }
 
-body{
-    margin: 2em auto;
+html{
+    font-size: 2rem;
 }
 
-#main{
-    background-image: linear-gradient(to right,lightblue 0%,coral 100%),url('https://c4.wallpaperflare.com/wallpaper/583/713/82/flowers-white-pink-peonies-wallpaper-preview.jpg');
+body{
+    /* margin: 2em auto;
+    
+    background-image: linear-gradient(to right,lightblue 0%, coral 100%),url('../../Pictures/pics/flowers.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-size: contain;
-    background-blend-mode: screen;
+    background-size: 100%;
+    background-blend-mode: screen; */
+}
+
+#main{
 
     width: 90%;
     margin: 0 auto;
@@ -201,9 +206,9 @@ footer{
 /* Media Queries */
 
 @media only screen and (max-width: 1000px){
-    #main{
+    /* body{
         background-size: cover;
-    }
+    } */
 
     header, nav, footer {
         grid-column: 1/4;
